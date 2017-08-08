@@ -167,3 +167,50 @@ ul.tablet {
   width: 47%;
 }
 }
+
+@media only screen and (max-width:470px){
+
+#arrival {
+  font-size: 0.77rem;
+}
+
+#page {
+  font-size: 1rem;
+}
+
+.banner-header {
+  top: 10rem;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.background-banner {
+  height: 15rem;
+}
+
+.product:nth-child(2){
+  display: none;
+}
+
+.product {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.loc-hours {
+  flex-direction: column;
+}
+
+.location, .hours {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.location p:last-child{
+  margin-bottom: .5rem;
+}
+footer {
+  text-align: center;
+}
+
+}
