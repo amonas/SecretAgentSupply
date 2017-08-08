@@ -70,6 +70,10 @@ nav li {
   padding: 0.75rem 0;
 }
 
+.tablet {
+  display: none;
+}
+
 /* products */
 
 .products {
@@ -137,4 +141,29 @@ footer {
 
 footer {
   text-align: left;
+}
+
+@media only screen and (max-width: 1024px)
+{
+
+.desktop{
+  display: none;
+}
+
+.tablet {
+  display:inherit;
+}
+
+ul.tablet {
+  display: flex;
+  justify-content: center;
+}
+
+.media {
+  max-width: 100%;
+}
+
+.product{
+  width: 47%;
+}
 }
